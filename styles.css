@@ -1,0 +1,167 @@
+body{ 
+    background: rgb(205,255,216);
+    background: linear-gradient(90deg, rgba(205,255,216,1) 0%, rgba(148,185,255,1) 100%);
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    align-content: center;
+}
+
+.cloud{
+    max-width: 30%;
+    height: auto;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    /* margin:0; */
+}
+
+.motto{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    /* margin:0; */
+
+}
+
+#citySearch{
+    display:flex;
+    align-items: center;
+    display: inline;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin:0; */
+}
+
+#zipCodeEntry{
+    display:flex;
+    align-items: center;
+    display: inline;
+    
+}
+
+.search{
+    height: 1em;
+}
+
+.dataDisplay{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#currentCity{
+    font-size: 40px;
+    font-weight: 600;
+    margin : 30px;
+}
+
+.today{
+    font-size: 28px;
+    font-weight: 600;
+    margin : 0;
+}
+
+#currentDate{
+    font-size: 20px;
+    margin : 0;
+}
+
+#currentTemp{
+    font-size:80px;
+    margin : 50px;
+}
+
+#currentCondition{
+    font-size: 20px;
+    margin : 0;
+}
+
+#High{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+#Low{
+    font-size: 20px;
+    padding-left:10px;
+}
+
+hr{
+    width: 75%;
+}
+
+.highLow{
+    display:flex;
+    justify-content: center;
+}
+footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    display:flex;
+    justify-content: center;
+}
+
+@media (min-width:768px) {
+    .name{
+        font-size:20px;
+      } 
+      .motto{
+        font-size: 15px;
+      }
+      #currentCity{
+        font-size: 40px;
+      }
+      .today{
+        font-size: 28px;
+      }
+      #currentDate, #currentCondition, #High, #Low{
+        font-size: 20px;
+      }
+      #currentTemp{
+        font-size:80px;
+      } 
+}
+@media (min-width:1024px) {
+  .name{
+    font-size:40px;
+  } 
+  .motto{
+    font-size: 15px;
+  }
+  #currentCity{
+    font-size: 40px;
+  }
+  .today{
+    font-size: 28px;
+  }
+  #currentDate, #currentCondition, #High, #Low{
+    font-size: 20px;
+  }
+  #currentTemp{
+    font-size:80px;
+  }
+}
+
+@media (min-width:1280px) {
+    
+}
+
+
